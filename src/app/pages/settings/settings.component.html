@@ -1,0 +1,8 @@
+<p>settings works!</p>
+
+<div>
+  <h3>Settings state</h3>
+  {{settingsService.getSettingsState() | async | json}}
+</div>
+
+<button (click)="toggleSidebar()">Toggle sidebar</button>
