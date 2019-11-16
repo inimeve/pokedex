@@ -5,7 +5,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {PagesModule} from './pages/pages.module';
 import {CoreModule} from './core/core.module';
-import {CompLibModule} from './comp-lib/comp-lib.module';
 
 
 @NgModule({
@@ -17,7 +16,6 @@ import {CompLibModule} from './comp-lib/comp-lib.module';
     AppRoutingModule,
     PagesModule,
     CoreModule.forRoot(),
-    CompLibModule,
   ],
   bootstrap: [AppComponent]
 })
