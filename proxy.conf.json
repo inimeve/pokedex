@@ -1,0 +1,9 @@
+{
+  "/pokeapi": {
+    "target": "https://pokeapi.co",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {"^/pokeapi" : "/api"}
+  }
+}
